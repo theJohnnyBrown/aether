@@ -8,7 +8,8 @@
   :source-paths ["src/cljx"]
   :test-paths ["target/test-classes"]
 
-  :dependencies [[org.clojure/clojure "1.5.1"]]
+  :dependencies [[org.clojure/clojure "1.5.1"]
+                 [formative "0.8.8"]]
 
   :cljx {:builds [{:source-paths ["src/"]
                    :output-path "target/classes"
